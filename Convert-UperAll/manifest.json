@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Convert UperAll",
+  "version": "1.0.0",
+  "description": "Converte um texto em caixa alta",
+  "browser_action": {
+    "default_popup":"index.html"
+  }
+}

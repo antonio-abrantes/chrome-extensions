@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Acelerate AudioSpeed",
+  "version": "0.1.0",
+  "description": "Acelera audios do Whatsapp Web",
+  "content_scripts": [
+      {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+      }
+    ]
+}
